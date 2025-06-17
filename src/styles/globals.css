@@ -927,28 +927,32 @@ body {
 }
 
 @media (max-width: 480px) {
+  body {
+    font-size: 12px; /* Base font size for phones */
+  }
+
   .container {
-    padding: 0 10px;
+    padding: 0 5px; /* Even tighter padding */
   }
 
   .hero-title {
-    font-size: 1.5rem;
+    font-size: 1.1rem; /* Further decreased for mobile */
   }
 
   .unite-title {
-    font-size: 1.4rem;
+    font-size: 1rem; /* Further decreased */
   }
 
   .section-title {
-    font-size: 1.3rem;
+    font-size: 0.9rem; /* Further decreased */
   }
 
   .activity-title {
-    font-size: 1.1rem;
+    font-size: 0.8rem; /* Further decreased */
   }
 
   .merchandise-section .section-title {
-    font-size: 1.5rem;
+    font-size: 1rem; /* Further decreased */
   }
 
   .partners-grid {
@@ -981,6 +985,17 @@ body {
   .footer-address p {
     word-wrap: break-word;
     overflow-wrap: break-word;
+    font-size: 0.85rem; /* General text size reduction for readability */
+  }
+
+  .cta-title {
+    font-size: 1.0rem; /* Further decreased for the footer's CTA title */
+  }
+
+  /* Universal rule for responsiveness within this breakpoint */
+  * {
+    max-width: 100%;
+    box-sizing: border-box;
   }
 }
 
