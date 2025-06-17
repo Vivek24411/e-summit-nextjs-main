@@ -859,15 +859,15 @@ body {
   }
 
   .hero-title {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .unite-title {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .section-title {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .flowers-left,
@@ -917,7 +917,7 @@ body {
   }
 
   .cta-title {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 
   .robot-left,
@@ -932,15 +932,15 @@ body {
   }
 
   .hero-title {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 
   .unite-title {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   .section-title {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
 
   .activity-title {
@@ -948,7 +948,7 @@ body {
   }
 
   .merchandise-section .section-title {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
 
   .partners-grid {
@@ -962,6 +962,25 @@ body {
   img {
     max-width: 100%;
     height: auto;
+  }
+
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .hero-description,
+  .unite-description,
+  .speaker-description,
+  .workshop-description,
+  .activity-description,
+  .footer-text p,
+  .contact-info p,
+  .footer-address p {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
   }
 }
 
