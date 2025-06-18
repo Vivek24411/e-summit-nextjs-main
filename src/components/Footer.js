@@ -21,13 +21,7 @@ export default function Footer() {
                 <p>E-Summit IIT Roorkee is North India&apos;s largest entrepreneurial fest, organized by the Entrepreneurship Cell to inspire and empower future leaders.</p>
               </div>
               
-              <div className="footer-contact">
-                <h4>CONTACTS</h4>
-                <div className="contact-info">
-                  <p>+91 6387630920</p>
-                  <p>esummit@iitr.ac.in</p>
-                </div>
-              </div>
+              
               
               <div className="footer-address">
                 <h4>ADDRESS</h4>
